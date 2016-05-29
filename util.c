@@ -6,7 +6,7 @@ int main(void)
 	static char k[10000];
 	FILE *sv;
 
-	printf("입력 : ");
+	printf("(input) : ");
 	scanf("%s", a);
 	
 	if((strcmp(a,"clear")!=0)&&(strcmp(a,"save")!=0))
